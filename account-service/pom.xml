@@ -30,11 +30,14 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-jpa</artifactId>
         </dependency>
+        
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-j</artifactId>
             <scope>runtime</scope>
+            <version>8.1.1</version> <!-- explicitly add a version -->
         </dependency>
+
         <!-- Prometheus monitoring -->
         <dependency>
             <groupId>io.micrometer</groupId>
